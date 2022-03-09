@@ -1,0 +1,119 @@
+.head{
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red ,yellow,green);
+}
+.list{
+    height: 80px;
+    border: 10px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    width: 800px;
+    align-items: center;
+margin-left: 25vw;
+background-color: aquamarine;
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    background-image: linear-gradient(150deg, red, orange);
+    width: 99vw;
+    border: yellowgreen solid 3px;
+    border-radius: 15px;
+}
+.container div{
+    background-color: antiquewhite;
+    width: 600px;
+    margin:5px;
+    text-align: center;
+    height: 100px;
+    border: 10px;
+    border-radius: 15px;
+}
+.top{
+    background-image: linear-gradient(to left,orange, brown , yellow, green);
+    text-align: center;
+    text-decoration: underline;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 10px;
+    height: 250px;
+    align-items: center;
+background-image: radial-gradient(yellow, green, red, orange);
+    width: 99vw;
+    border: yellowgreen solid 3px;
+    border-radius: 15px;
+    margin-top: 10px;
+
+
+}
+.box{
+    height: 100px;
+    width: 200px;
+    margin:70px;
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: 10px white;
+    background-color: aqua;
+}
+.career{
+    background-image: linear-gradient(105deg, yellow, red, gray,blue);
+}
+
+.free{
+width:100%;
+margin:50px auto;
+border:2px  solid goldenrod;
+display: grid;
+grid-template-rows:60px 100px 200px 60px;
+grid-template-columns: repeat(3,1fr) 150px;
+grid-gap:20px;
+
+}
+.div1{ background-color: red;
+    grid-column: 1/-1;
+
+}
+.div2{ background-color: oldlace;
+    font-size: 25px ;
+    color: greenyellow;
+    text-align: center;
+    
+}
+.div3{ background-color: grey;
+color: chartreuse;
+text-align: left;
+font-size: 25px;
+}
+.div4{ background-color: yellowgreen;
+text-align: left;
+font-size: 20px;
+color: blueviolet;}
+
+.div5{ background-color: yellow;
+grid-row: 2/4;
+grid-column: 4/5;
+text-decoration: underline;
+line-height: 25px;
+font-size: 20px;
+}
+.div6{ background-color: goldenrod;
+    grid-column: 1/4;
+    font-size: 25px;
+    color: azure;
+    text-align: left;
+}
+.div7{ background-color: green;
+ grid-column: 1/-1;
+font-size: 30px;}
